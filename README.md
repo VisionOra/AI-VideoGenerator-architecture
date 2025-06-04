@@ -194,7 +194,7 @@ graph LR
     end
     
     subgraph "📝 Business Logic"
-        MOCK[🎲 Mock Data Generator<br/>mock_data.py<br/>session() meta() scenes()<br/>preview() final_ad()]
+        MOCK[🎲 Mock Data Generator - mock_data.py - session meta scenes preview final_ad functions]
     end
     
     subgraph "💾 Data Layer"
