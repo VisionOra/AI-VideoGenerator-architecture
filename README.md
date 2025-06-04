@@ -163,12 +163,12 @@ graph TD
     classDef container fill:#e3f2fd
     classDef component fill:#f1f8e9
     classDef service fill:#fff8e1
-    classDef style fill:#fce4ec
+    classDef styling fill:#fce4ec
     
     class APP,ROUTER,WIZ container
     class META,SCENE,PREVIEW,CONFIRM,BUTTON component
     class API,HOOK service
-    class TAILWIND,INTER style
+    class TAILWIND,INTER styling
 ```
 
 ## 🔧 Backend API Architecture
@@ -194,7 +194,7 @@ graph LR
     end
     
     subgraph "📝 Business Logic"
-        MOCK[🎲 Mock Data Generator<br/>mock_data.py<br/>• session()<br/>• meta()<br/>• scenes()<br/>• preview()<br/>• final_ad()]
+        MOCK[🎲 Mock Data Generator<br/>mock_data.py<br/>session() meta() scenes()<br/>preview() final_ad()]
     end
     
     subgraph "💾 Data Layer"
